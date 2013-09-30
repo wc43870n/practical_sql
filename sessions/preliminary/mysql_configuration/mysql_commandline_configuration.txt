@@ -1,0 +1,78 @@
+MySQL Configuration and Permissions for Command Line
+----------------------------------------------------
+Running MySQL queries directly from the command line requires a MySQL account
+with appropriate permissions, and a MySQL configuration file in a default
+location.
+
+(The class does not require query execution from the command line -- any SQL
+client will do.  These instructions are provided for the curious.)
+
+By 'running a query from the command line', I mean a command on the command
+line of the form: 
+    << mysql < somequery.sql >>
+
+Note that this discussion applies only to MySQL (and not to any other SQL
+implementation), and to the Mac and Linux environments (and not Windows).
+
+
+Discussion
+----------
+MySQL has an internal apparatus for controlling the availability of information
+and the modification of data.  This allows the program to enforce policy for
+topics like information confidentiality, security, and prevention of accidental
+data loss.
+
+This apparatus works through a system of user accounts, very similar to the
+user accounts on an operating system.  MySQL installations begin with a
+'superuser' account, with unlimited ability to access and modify data.  That
+user can create other users and assign them privileges.  
+
+Using the command line MySQL client requires establishment of a user account
+with appropriate permissions, and configuration of the operating system user
+account to use that MySQL account by default.
+
+That operating system is handled by creation of a file, named '.my.cnf', and
+saving it in the user's home directory.  When mysql is launched from the
+command line, it looks for configuration files in a number of directories, this
+root directory among them -- on finding a configuration file, it reads in the
+file's data and uses it as its defaults.
+
+
+Steps
+-----
+
+Create and Permission the MySQL User:
+- Create the user by editing the file create_mysql_user.sql to provide a
+  user name (generally the same as your computer account) and a password
+  (anything).
+- Run that query, as the MySQL root account, with this command:
+    mysql -u root -p < create_mysql_users.sql
+
+    - You will be prompted for the MySQL root user password.  By default this
+      is empty, so just hit 'Enter'.  Contact me if that does not work.
+
+
+Create the Configuration File:
+- Edit example.my.cnf to provide the user name and password created in the
+  user creation query
+- Save that file to your home directory as .my.cnf.
+    - You can reach your home directory from the command line with command <<
+      cd ~ >>.  On Macs it is the directory designated 
+      by '/Users/[your account name]'.
+    - This file probably will _not_ appear in Finder.  The '.' at the beginning
+      tells the operating system to make this a 'hidden' file.  Finder settings
+      can be modified to show these files.  They can be see on the command line
+      with  << ls -a >>.
+
+After these steps, you should be able to run queries from the command line.  
+
+
+Contact
+-------
+Please contact me if you have any questions or difficulties.
+gordon@practicalhorseshoeing.co
+
+
+
+
+

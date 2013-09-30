@@ -1,0 +1,15 @@
+[mysqld]
+defautl_character_set=utf8
+
+[client]
+host=localhost
+user=[YOUR USER NAME HERE]
+password=[YOUR MYSQL PASSWORD HERE]
+default_character_set=utf8
+
+
+#   password is set in mysql grant permissions query, run as root
+
+#   Once edited, this file should be saved to your home directory as << .my.cnf >>
+
+
