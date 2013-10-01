@@ -45,6 +45,14 @@ For Macs that means dowloading two different packages, and installing three
 pieces of software from them.  Please take care to download the .dmg files,
 rather than the .tar files, the former should be much easier to install.
 
+BE CAREFUL ABOUT VERSIONS.  Verify that the version you download is compatible
+with the version of your OS.
+
+USE DMG FILES.  Macintosh users should please take care to download the .dmg
+installation files from the site, rather than the .tar files.  The .dmg files
+provide an automated installation path, which should lead you through the whole
+process.
+
 Once all that is installed, restart your computer.  You should then be able to
 create a database connection with Workbench.
 -   Open Workbench
@@ -55,13 +63,6 @@ create a database connection with Workbench.
     Please see the instructions and files in the directory sample_database.
 
 Possible Installation Error Points 
--   Macintosh users should please take care to download the .dmg installation
-    files from the site, rather than the .tar files.  The .dmg files provide an
-    automated installation path, which should lead you through the whole
-    process.
--   I've seen Mac users with OSX 10.5 try to run a MySQL Server version for
-    10.6.  This fails silently.  Check to be sure your OS version supports the
-    requirements of the particular MySQL package you've downloaded.
 -   I recently seen successful installations that miss one last step.  If
     MySQL Workbench does not run, please open a Terminal (Applications >
     Utilities > Terminal).  In the window that appears, type 'mysql' and
@@ -71,6 +72,88 @@ Possible Installation Error Points
     something wrong with your base installation -- please review the
     installation steps above.
 
+============================
+Troubleshooting -- Macintosh
+============================
+You (think you have) followed the installations instructions but it doesn't
+work.
+
+Check Version Compatability
+---------------------------
+-   You must install a MySQL version appropriate for your OS version.
+-   The OS version can be found by:
+    -   Clicking the Apple icon at the top left of the Desktop screen
+    -   Clicking "About This Mac"
+    -   An info box appears in the middle of your screen, the version number of
+        your OS can be found there
+-   The MySQL version can be found in the name of the file you downloaded from
+    mysql.com
+    -   That file is probably somewhere in Downloads/
+    -   Its name will include the string 'mysql'
+    -   The target OS version is in that file name.
+        -   For example, << mysql-5.5.12-osx10.6-x86_64.dmg >> is intended for
+            OSX 10.6, 64 bit.
+        -   If the MySQL package targets an OS version above yours, it won't
+            work on yours
+        -   If MySQL package targets an OS version under yours, it might or
+            might not work
+        -   I haven't seen issues with 64 bit versus 32 bit
+            -   Though if in doubt, 32 bit would work for both, so using that
+                is surest
+
+Check If Server Is Running
+--------------------------
+-   Open Activity Monitor
+    -   Applications > Utilities > Activity Monitor
+-   Look for the process 'mysqld'
+    1   Sort by "Process Name" by clicking "Process Name" in the displayed
+        table, scroll down looking for 'mysqld'
+    
+    or
+
+    2   In the 'filter' box, type 'mysql' or 'mysqld'
+        -   mysqld should appear in the results
+
+-   IF 'mysqld' doesn't appear:
+    -   The server program wasn't installed, AND / OR
+    -   The server startup script wasn't installed, AND / OR
+    -   The computer wasn't reboot after installation of those items
+
+    Carefully review and repeat those installations, restart the computer, and
+    recheck for the 'mysqld' process
+
+Check Path Issues
+-----------------
+-   Sometimes the default installation does not place a link to 'mysql' on the
+    'execution path' of the computer
+-   These steps require use of the Terminal.  If you aren't comfortable with
+    Terminal, contact me
+    -   Open Terminal
+    -   Applications > Utilities > Terminal
+-   In Terminal, type
+    
+        << which mysql >>
+        then 'Enter' / 'Return'
+
+        If you seem some result (something like /usr/local/bin/mysql), this
+        isn't the problem
+
+        If nothing happens, mysql isn't on the path
+
+-   Fix:
+    -   check location of mysql on the computer:
+        
+        ls /usr/local/mysql/bin/mysql
+        -   this should get a result
+        -   not this, this fix won't work, contact me
+
+    -   put mysql on the path:
+        
+        ln -s /usr/local/mysql/bin/mysql /usr/local/bin/mysql
+
+-   retry workbench
+
+
 
 WINDOWS
 -------
@@ -79,6 +162,8 @@ with Windows and cannot provide as much help or guidance as for Macs.   In my
 experience people can install the software without too much difficulty, but
 occasionally run into problems that require some knowledge of Windows to
 resolve.
+
+If you have trouble, please contact me and I'll help as best I can.
 
 
 LINUX
