@@ -4,6 +4,8 @@ Additions are in or under the directory sessions/01, and include:
 -   A PDF of last night's deck
 -   Queries and files for loading a CSV file to a database -- see examples/load_csv
 -   Exercises
+-   The email sent to class announcing these additions, and discussing 
+    other matters.
 
 The exercises are deliberately written to provide a range of difficulty.  A few
 require obtaining external data and / or googling about SQL for yourself.

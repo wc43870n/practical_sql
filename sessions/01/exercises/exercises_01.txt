@@ -32,6 +32,21 @@ Loading CSV Data
       Then begin to add typing for the fields, one by one.  This will help you
       see what particular problems you may be having.
 
+    QUESTIONS
+    We could easily add data for more dates for these cities -- just load in
+    more data.
+    -   Think about how we would add data for another city.  What, generally,
+        would we have to do here?
+    -   Think about how we would add, for the cities already in the data set,
+        data on (say) humidity, or precipitation, or some other metric.  Should
+        such data be added as new columns?  Should it be added in separate
+        tables?
+    -   Could we make changes to the way we organize this data that might help
+        the problem of adding data for a new city, or data for new metrics for
+        existing cities?  What might those be, and what would be their pros and
+        cons?
+
+
 3.  Bonus Round.
 
     Load a month of historical stock price data for Apple, from Google Finance,
