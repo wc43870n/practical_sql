@@ -1,0 +1,1099 @@
+date,city,temperature
+2011-10-01,San Francisco,62
+2011-10-01,New York,63
+2011-10-01,Austin,72
+2011-10-02,San Francisco,59
+2011-10-02,New York,58
+2011-10-02,Austin,67
+2011-10-03,San Francisco,59
+2011-10-03,New York,53
+2011-10-03,Austin,69
+2011-10-04,San Francisco,58
+2011-10-04,New York,55
+2011-10-04,Austin,68
+2011-10-05,San Francisco,58
+2011-10-05,New York,64
+2011-10-05,Austin,72
+2011-10-06,San Francisco,57
+2011-10-06,New York,58
+2011-10-06,Austin,77
+2011-10-07,San Francisco,56
+2011-10-07,New York,57
+2011-10-07,Austin,82
+2011-10-08,San Francisco,56
+2011-10-08,New York,61
+2011-10-08,Austin,78
+2011-10-09,San Francisco,56
+2011-10-09,New York,69
+2011-10-09,Austin,68
+2011-10-10,San Francisco,60
+2011-10-10,New York,71
+2011-10-10,Austin,68
+2011-10-11,San Francisco,61
+2011-10-11,New York,68
+2011-10-11,Austin,70
+2011-10-12,San Francisco,61
+2011-10-12,New York,61
+2011-10-12,Austin,75
+2011-10-13,San Francisco,64
+2011-10-13,New York,63
+2011-10-13,Austin,76
+2011-10-14,San Francisco,67
+2011-10-14,New York,66
+2011-10-14,Austin,66
+2011-10-15,San Francisco,64
+2011-10-15,New York,61
+2011-10-15,Austin,68
+2011-10-16,San Francisco,61
+2011-10-16,New York,61
+2011-10-16,Austin,70
+2011-10-17,San Francisco,61
+2011-10-17,New York,62
+2011-10-17,Austin,71
+2011-10-18,San Francisco,59
+2011-10-18,New York,60
+2011-10-18,Austin,70
+2011-10-19,San Francisco,58
+2011-10-19,New York,62
+2011-10-19,Austin,61
+2011-10-20,San Francisco,57
+2011-10-20,New York,65
+2011-10-20,Austin,57
+2011-10-21,San Francisco,56
+2011-10-21,New York,55
+2011-10-21,Austin,64
+2011-10-22,San Francisco,60
+2011-10-22,New York,54
+2011-10-22,Austin,72
+2011-10-23,San Francisco,65
+2011-10-23,New York,54
+2011-10-23,Austin,72
+2011-10-24,San Francisco,60
+2011-10-24,New York,54
+2011-10-24,Austin,72
+2011-10-25,San Francisco,56
+2011-10-25,New York,57
+2011-10-25,Austin,72
+2011-10-26,San Francisco,54
+2011-10-26,New York,54
+2011-10-26,Austin,73
+2011-10-27,San Francisco,56
+2011-10-27,New York,54
+2011-10-27,Austin,70
+2011-10-28,San Francisco,58
+2011-10-28,New York,42
+2011-10-28,Austin,56
+2011-10-29,San Francisco,57
+2011-10-29,New York,40
+2011-10-29,Austin,51
+2011-10-30,San Francisco,57
+2011-10-30,New York,38
+2011-10-30,Austin,54
+2011-10-31,San Francisco,55
+2011-10-31,New York,44
+2011-10-31,Austin,58
+2011-11-01,San Francisco,57
+2011-11-01,New York,49
+2011-11-01,Austin,62
+2011-11-02,San Francisco,64
+2011-11-02,New York,47
+2011-11-02,Austin,71
+2011-11-03,San Francisco,56
+2011-11-03,New York,50
+2011-11-03,Austin,58
+2011-11-04,San Francisco,50
+2011-11-04,New York,50
+2011-11-04,Austin,45
+2011-11-05,San Francisco,51
+2011-11-05,New York,43
+2011-11-05,Austin,52
+2011-11-06,San Francisco,52
+2011-11-06,New York,43
+2011-11-06,Austin,73
+2011-11-07,San Francisco,51
+2011-11-07,New York,48
+2011-11-07,Austin,75
+2011-11-08,San Francisco,50
+2011-11-08,New York,55
+2011-11-08,Austin,72
+2011-11-09,San Francisco,54
+2011-11-09,New York,53
+2011-11-09,Austin,56
+2011-11-10,San Francisco,55
+2011-11-10,New York,57
+2011-11-10,Austin,55
+2011-11-11,San Francisco,53
+2011-11-11,New York,48
+2011-11-11,Austin,46
+2011-11-12,San Francisco,54
+2011-11-12,New York,46
+2011-11-12,Austin,62
+2011-11-13,San Francisco,53
+2011-11-13,New York,51
+2011-11-13,Austin,71
+2011-11-14,San Francisco,53
+2011-11-14,New York,56
+2011-11-14,Austin,75
+2011-11-15,San Francisco,53
+2011-11-15,New York,59
+2011-11-15,Austin,72
+2011-11-16,San Francisco,52
+2011-11-16,New York,56
+2011-11-16,Austin,65
+2011-11-17,San Francisco,52
+2011-11-17,New York,49
+2011-11-17,Austin,56
+2011-11-18,San Francisco,53
+2011-11-18,New York,41
+2011-11-18,Austin,49
+2011-11-19,San Francisco,49
+2011-11-19,New York,44
+2011-11-19,Austin,71
+2011-11-20,San Francisco,50
+2011-11-20,New York,54
+2011-11-20,Austin,77
+2011-11-21,San Francisco,51
+2011-11-21,New York,54
+2011-11-21,Austin,76
+2011-11-22,San Francisco,52
+2011-11-22,New York,49
+2011-11-22,Austin,68
+2011-11-23,San Francisco,54
+2011-11-23,New York,50
+2011-11-23,Austin,57
+2011-11-24,San Francisco,55
+2011-11-24,New York,44
+2011-11-24,Austin,55
+2011-11-25,San Francisco,51
+2011-11-25,New York,50
+2011-11-25,Austin,61
+2011-11-26,San Francisco,53
+2011-11-26,New York,52
+2011-11-26,Austin,64
+2011-11-27,San Francisco,52
+2011-11-27,New York,49
+2011-11-27,Austin,51
+2011-11-28,San Francisco,51
+2011-11-28,New York,57
+2011-11-28,Austin,43
+2011-11-29,San Francisco,49
+2011-11-29,New York,59
+2011-11-29,Austin,46
+2011-11-30,San Francisco,49
+2011-11-30,New York,50
+2011-11-30,Austin,48
+2011-12-01,San Francisco,60
+2011-12-01,New York,44
+2011-12-01,Austin,48
+2011-12-02,San Francisco,62
+2011-12-02,New York,43
+2011-12-02,Austin,60
+2011-12-03,San Francisco,58
+2011-12-03,New York,42
+2011-12-03,Austin,62
+2011-12-04,San Francisco,52
+2011-12-04,New York,43
+2011-12-04,Austin,57
+2011-12-05,San Francisco,51
+2011-12-05,New York,50
+2011-12-05,Austin,44
+2011-12-06,San Francisco,49
+2011-12-06,New York,54
+2011-12-06,Austin,37
+2011-12-07,San Francisco,48
+2011-12-07,New York,54
+2011-12-07,Austin,35
+2011-12-08,San Francisco,46
+2011-12-08,New York,43
+2011-12-08,Austin,37
+2011-12-09,San Francisco,49
+2011-12-09,New York,42
+2011-12-09,Austin,45
+2011-12-10,San Francisco,52
+2011-12-10,New York,45
+2011-12-10,Austin,50
+2011-12-11,San Francisco,48
+2011-12-11,New York,33
+2011-12-11,Austin,48
+2011-12-12,San Francisco,47
+2011-12-12,New York,36
+2011-12-12,Austin,52
+2011-12-13,San Francisco,47
+2011-12-13,New York,38
+2011-12-13,Austin,60
+2011-12-14,San Francisco,46
+2011-12-14,New York,41
+2011-12-14,Austin,70
+2011-12-15,San Francisco,48
+2011-12-15,New York,49
+2011-12-15,Austin,64
+2011-12-16,San Francisco,47
+2011-12-16,New York,50
+2011-12-16,Austin,50
+2011-12-17,San Francisco,49
+2011-12-17,New York,40
+2011-12-17,Austin,51
+2011-12-18,San Francisco,49
+2011-12-18,New York,29
+2011-12-18,Austin,55
+2011-12-19,San Francisco,48
+2011-12-19,New York,33
+2011-12-19,Austin,62
+2011-12-20,San Francisco,49
+2011-12-20,New York,45
+2011-12-20,Austin,56
+2011-12-21,San Francisco,48
+2011-12-21,New York,47
+2011-12-21,Austin,47
+2011-12-22,San Francisco,53
+2011-12-22,New York,54
+2011-12-22,Austin,52
+2011-12-23,San Francisco,47
+2011-12-23,New York,47
+2011-12-23,Austin,45
+2011-12-24,San Francisco,47
+2011-12-24,New York,34
+2011-12-24,Austin,43
+2011-12-25,San Francisco,48
+2011-12-25,New York,35
+2011-12-25,Austin,42
+2011-12-26,San Francisco,45
+2011-12-26,New York,43
+2011-12-26,Austin,48
+2011-12-27,San Francisco,47
+2011-12-27,New York,42
+2011-12-27,Austin,45
+2011-12-28,San Francisco,48
+2011-12-28,New York,46
+2011-12-28,Austin,44
+2011-12-29,San Francisco,50
+2011-12-29,New York,30
+2011-12-29,Austin,50
+2011-12-30,San Francisco,52
+2011-12-30,New York,40
+2011-12-30,Austin,52
+2011-12-31,San Francisco,50
+2011-12-31,New York,49
+2011-12-31,Austin,53
+2012-01-01,San Francisco,53
+2012-01-01,New York,46
+2012-01-01,Austin,55
+2012-01-02,San Francisco,53
+2012-01-02,New York,43
+2012-01-02,Austin,48
+2012-01-03,San Francisco,49
+2012-01-03,New York,30
+2012-01-03,Austin,41
+2012-01-04,San Francisco,52
+2012-01-04,New York,19
+2012-01-04,Austin,48
+2012-01-05,San Francisco,52
+2012-01-05,New York,32
+2012-01-05,Austin,54
+2012-01-06,San Francisco,49
+2012-01-06,New York,41
+2012-01-06,Austin,61
+2012-01-07,San Francisco,51
+2012-01-07,New York,47
+2012-01-07,Austin,59
+2012-01-08,San Francisco,56
+2012-01-08,New York,46
+2012-01-08,Austin,52
+2012-01-09,San Francisco,52
+2012-01-09,New York,34
+2012-01-09,Austin,54
+2012-01-10,San Francisco,51
+2012-01-10,New York,39
+2012-01-10,Austin,47
+2012-01-11,San Francisco,49
+2012-01-11,New York,40
+2012-01-11,Austin,49
+2012-01-12,San Francisco,51
+2012-01-12,New York,45
+2012-01-12,Austin,48
+2012-01-13,San Francisco,53
+2012-01-13,New York,40
+2012-01-13,Austin,40
+2012-01-14,San Francisco,52
+2012-01-14,New York,30
+2012-01-14,Austin,43
+2012-01-15,San Francisco,49
+2012-01-15,New York,23
+2012-01-15,Austin,45
+2012-01-16,San Francisco,45
+2012-01-16,New York,22
+2012-01-16,Austin,65
+2012-01-17,San Francisco,43
+2012-01-17,New York,39
+2012-01-17,Austin,68
+2012-01-18,San Francisco,45
+2012-01-18,New York,43
+2012-01-18,Austin,47
+2012-01-19,San Francisco,47
+2012-01-19,New York,26
+2012-01-19,Austin,57
+2012-01-20,San Francisco,51
+2012-01-20,New York,32
+2012-01-20,Austin,61
+2012-01-21,San Francisco,53
+2012-01-21,New York,27
+2012-01-21,Austin,54
+2012-01-22,San Francisco,48
+2012-01-22,New York,25
+2012-01-22,Austin,56
+2012-01-23,San Francisco,52
+2012-01-23,New York,39
+2012-01-23,Austin,54
+2012-01-24,San Francisco,49
+2012-01-24,New York,48
+2012-01-24,Austin,52
+2012-01-25,San Francisco,52
+2012-01-25,New York,43
+2012-01-25,Austin,61
+2012-01-26,San Francisco,53
+2012-01-26,New York,37
+2012-01-26,Austin,55
+2012-01-27,San Francisco,50
+2012-01-27,New York,48
+2012-01-27,Austin,50
+2012-01-28,San Francisco,50
+2012-01-28,New York,43
+2012-01-28,Austin,52
+2012-01-29,San Francisco,53
+2012-01-29,New York,40
+2012-01-29,Austin,44
+2012-01-30,San Francisco,51
+2012-01-30,New York,38
+2012-01-30,Austin,49
+2012-01-31,San Francisco,50
+2012-01-31,New York,43
+2012-01-31,Austin,62
+2012-02-01,San Francisco,50
+2012-02-01,New York,50
+2012-02-01,Austin,64
+2012-02-02,San Francisco,51
+2012-02-02,New York,45
+2012-02-02,Austin,61
+2012-02-03,San Francisco,51
+2012-02-03,New York,37
+2012-02-03,Austin,70
+2012-02-04,San Francisco,52
+2012-02-04,New York,40
+2012-02-04,Austin,61
+2012-02-05,San Francisco,53
+2012-02-05,New York,36
+2012-02-05,Austin,48
+2012-02-06,San Francisco,54
+2012-02-06,New York,39
+2012-02-06,Austin,44
+2012-02-07,San Francisco,54
+2012-02-07,New York,43
+2012-02-07,Austin,51
+2012-02-08,San Francisco,51
+2012-02-08,New York,36
+2012-02-08,Austin,49
+2012-02-09,San Francisco,53
+2012-02-09,New York,36
+2012-02-09,Austin,45
+2012-02-10,San Francisco,53
+2012-02-10,New York,38
+2012-02-10,Austin,54
+2012-02-11,San Francisco,52
+2012-02-11,New York,36
+2012-02-11,Austin,44
+2012-02-12,San Francisco,50
+2012-02-12,New York,29
+2012-02-12,Austin,36
+2012-02-13,San Francisco,49
+2012-02-13,New York,33
+2012-02-13,Austin,44
+2012-02-14,San Francisco,48
+2012-02-14,New York,39
+2012-02-14,Austin,52
+2012-02-15,San Francisco,49
+2012-02-15,New York,42
+2012-02-15,Austin,68
+2012-02-16,San Francisco,52
+2012-02-16,New York,39
+2012-02-16,Austin,54
+2012-02-17,San Francisco,49
+2012-02-17,New York,46
+2012-02-17,Austin,53
+2012-02-18,San Francisco,51
+2012-02-18,New York,41
+2012-02-18,Austin,56
+2012-02-19,San Francisco,47
+2012-02-19,New York,39
+2012-02-19,Austin,50
+2012-02-20,San Francisco,48
+2012-02-20,New York,38
+2012-02-20,Austin,53
+2012-02-21,San Francisco,49
+2012-02-21,New York,37
+2012-02-21,Austin,61
+2012-02-22,San Francisco,53
+2012-02-22,New York,45
+2012-02-22,Austin,68
+2012-02-23,San Francisco,54
+2012-02-23,New York,50
+2012-02-23,Austin,69
+2012-02-24,San Francisco,55
+2012-02-24,New York,42
+2012-02-24,Austin,59
+2012-02-25,San Francisco,51
+2012-02-25,New York,42
+2012-02-25,Austin,47
+2012-02-26,San Francisco,47
+2012-02-26,New York,36
+2012-02-26,Austin,47
+2012-02-27,San Francisco,45
+2012-02-27,New York,40
+2012-02-27,Austin,61
+2012-02-28,San Francisco,47
+2012-02-28,New York,45
+2012-02-28,Austin,67
+2012-02-29,San Francisco,49
+2012-02-29,New York,40
+2012-02-29,Austin,70
+2012-03-01,San Francisco,48
+2012-03-01,New York,41
+2012-03-01,Austin,62
+2012-03-02,San Francisco,48
+2012-03-02,New York,36
+2012-03-02,Austin,72
+2012-03-03,San Francisco,50
+2012-03-03,New York,47
+2012-03-03,Austin,59
+2012-03-04,San Francisco,55
+2012-03-04,New York,44
+2012-03-04,Austin,51
+2012-03-05,San Francisco,48
+2012-03-05,New York,38
+2012-03-05,Austin,55
+2012-03-06,San Francisco,48
+2012-03-06,New York,32
+2012-03-06,Austin,61
+2012-03-07,San Francisco,49
+2012-03-07,New York,43
+2012-03-07,Austin,67
+2012-03-08,San Francisco,49
+2012-03-08,New York,51
+2012-03-08,Austin,72
+2012-03-09,San Francisco,51
+2012-03-09,New York,47
+2012-03-09,Austin,46
+2012-03-10,San Francisco,49
+2012-03-10,New York,37
+2012-03-10,Austin,46
+2012-03-11,San Francisco,50
+2012-03-11,New York,42
+2012-03-11,Austin,56
+2012-03-12,San Francisco,48
+2012-03-12,New York,48
+2012-03-12,Austin,61
+2012-03-13,San Francisco,53
+2012-03-13,New York,52
+2012-03-13,Austin,68
+2012-03-14,San Francisco,55
+2012-03-14,New York,60
+2012-03-14,Austin,71
+2012-03-15,San Francisco,55
+2012-03-15,New York,47
+2012-03-15,Austin,72
+2012-03-16,San Francisco,54
+2012-03-16,New York,44
+2012-03-16,Austin,72
+2012-03-17,San Francisco,48
+2012-03-17,New York,48
+2012-03-17,Austin,71
+2012-03-18,San Francisco,47
+2012-03-18,New York,48
+2012-03-18,Austin,71
+2012-03-19,San Francisco,45
+2012-03-19,New York,53
+2012-03-19,Austin,73
+2012-03-20,San Francisco,49
+2012-03-20,New York,57
+2012-03-20,Austin,63
+2012-03-21,San Francisco,51
+2012-03-21,New York,57
+2012-03-21,Austin,60
+2012-03-22,San Francisco,51
+2012-03-22,New York,57
+2012-03-22,Austin,62
+2012-03-23,San Francisco,48
+2012-03-23,New York,61
+2012-03-23,Austin,61
+2012-03-24,San Francisco,49
+2012-03-24,New York,55
+2012-03-24,Austin,62
+2012-03-25,San Francisco,46
+2012-03-25,New York,48
+2012-03-25,Austin,64
+2012-03-26,San Francisco,49
+2012-03-26,New York,49
+2012-03-26,Austin,66
+2012-03-27,San Francisco,54
+2012-03-27,New York,39
+2012-03-27,Austin,65
+2012-03-28,San Francisco,54
+2012-03-28,New York,49
+2012-03-28,Austin,69
+2012-03-29,San Francisco,52
+2012-03-29,New York,56
+2012-03-29,Austin,69
+2012-03-30,San Francisco,54
+2012-03-30,New York,46
+2012-03-30,Austin,73
+2012-03-31,San Francisco,56
+2012-03-31,New York,42
+2012-03-31,Austin,73
+2012-04-01,San Francisco,51
+2012-04-01,New York,45
+2012-04-01,Austin,75
+2012-04-02,San Francisco,50
+2012-04-02,New York,48
+2012-04-02,Austin,75
+2012-04-03,San Francisco,52
+2012-04-03,New York,51
+2012-04-03,Austin,77
+2012-04-04,San Francisco,50
+2012-04-04,New York,61
+2012-04-04,Austin,67
+2012-04-05,San Francisco,47
+2012-04-05,New York,50
+2012-04-05,Austin,71
+2012-04-06,San Francisco,47
+2012-04-06,New York,48
+2012-04-06,Austin,70
+2012-04-07,San Francisco,49
+2012-04-07,New York,51
+2012-04-07,Austin,73
+2012-04-08,San Francisco,50
+2012-04-08,New York,55
+2012-04-08,Austin,71
+2012-04-09,San Francisco,51
+2012-04-09,New York,58
+2012-04-09,Austin,70
+2012-04-10,San Francisco,53
+2012-04-10,New York,55
+2012-04-10,Austin,69
+2012-04-11,San Francisco,52
+2012-04-11,New York,49
+2012-04-11,Austin,69
+2012-04-12,San Francisco,53
+2012-04-12,New York,51
+2012-04-12,Austin,74
+2012-04-13,San Francisco,50
+2012-04-13,New York,53
+2012-04-13,Austin,73
+2012-04-14,San Francisco,50
+2012-04-14,New York,55
+2012-04-14,Austin,76
+2012-04-15,San Francisco,51
+2012-04-15,New York,62
+2012-04-15,Austin,74
+2012-04-16,San Francisco,51
+2012-04-16,New York,62
+2012-04-16,Austin,63
+2012-04-17,San Francisco,53
+2012-04-17,New York,69
+2012-04-17,Austin,67
+2012-04-18,San Francisco,53
+2012-04-18,New York,59
+2012-04-18,Austin,65
+2012-04-19,San Francisco,55
+2012-04-19,New York,54
+2012-04-19,Austin,67
+2012-04-20,San Francisco,55
+2012-04-20,New York,56
+2012-04-20,Austin,68
+2012-04-21,San Francisco,58
+2012-04-21,New York,58
+2012-04-21,Austin,65
+2012-04-22,San Francisco,52
+2012-04-22,New York,52
+2012-04-22,Austin,65
+2012-04-23,San Francisco,55
+2012-04-23,New York,51
+2012-04-23,Austin,70
+2012-04-24,San Francisco,57
+2012-04-24,New York,49
+2012-04-24,Austin,67
+2012-04-25,San Francisco,57
+2012-04-25,New York,52
+2012-04-25,Austin,75
+2012-04-26,San Francisco,55
+2012-04-26,New York,50
+2012-04-26,Austin,77
+2012-04-27,San Francisco,53
+2012-04-27,New York,51
+2012-04-27,Austin,77
+2012-04-28,San Francisco,54
+2012-04-28,New York,47
+2012-04-28,Austin,77
+2012-04-29,San Francisco,54
+2012-04-29,New York,54
+2012-04-29,Austin,77
+2012-04-30,San Francisco,53
+2012-04-30,New York,51
+2012-04-30,Austin,77
+2012-05-01,San Francisco,52
+2012-05-01,New York,57
+2012-05-01,Austin,77
+2012-05-02,San Francisco,50
+2012-05-02,New York,53
+2012-05-02,Austin,77
+2012-05-03,San Francisco,52
+2012-05-03,New York,53
+2012-05-03,Austin,79
+2012-05-04,San Francisco,53
+2012-05-04,New York,57
+2012-05-04,Austin,80
+2012-05-05,San Francisco,53
+2012-05-05,New York,57
+2012-05-05,Austin,82
+2012-05-06,San Francisco,56
+2012-05-06,New York,56
+2012-05-06,Austin,79
+2012-05-07,San Francisco,55
+2012-05-07,New York,54
+2012-05-07,Austin,79
+2012-05-08,San Francisco,52
+2012-05-08,New York,57
+2012-05-08,Austin,70
+2012-05-09,San Francisco,52
+2012-05-09,New York,59
+2012-05-09,Austin,69
+2012-05-10,San Francisco,53
+2012-05-10,New York,61
+2012-05-10,Austin,71
+2012-05-11,San Francisco,53
+2012-05-11,New York,59
+2012-05-11,Austin,69
+2012-05-12,San Francisco,49
+2012-05-12,New York,64
+2012-05-12,Austin,72
+2012-05-13,San Francisco,52
+2012-05-13,New York,65
+2012-05-13,Austin,72
+2012-05-14,San Francisco,56
+2012-05-14,New York,64
+2012-05-14,Austin,72
+2012-05-15,San Francisco,53
+2012-05-15,New York,62
+2012-05-15,Austin,67
+2012-05-16,San Francisco,51
+2012-05-16,New York,63
+2012-05-16,Austin,69
+2012-05-17,San Francisco,51
+2012-05-17,New York,64
+2012-05-17,Austin,72
+2012-05-18,San Francisco,52
+2012-05-18,New York,61
+2012-05-18,Austin,73
+2012-05-19,San Francisco,52
+2012-05-19,New York,62
+2012-05-19,Austin,77
+2012-05-20,San Francisco,54
+2012-05-20,New York,66
+2012-05-20,Austin,75
+2012-05-21,San Francisco,52
+2012-05-21,New York,62
+2012-05-21,Austin,76
+2012-05-22,San Francisco,53
+2012-05-22,New York,63
+2012-05-22,Austin,78
+2012-05-23,San Francisco,56
+2012-05-23,New York,66
+2012-05-23,Austin,77
+2012-05-24,San Francisco,54
+2012-05-24,New York,64
+2012-05-24,Austin,80
+2012-05-25,San Francisco,52
+2012-05-25,New York,65
+2012-05-25,Austin,81
+2012-05-26,San Francisco,52
+2012-05-26,New York,69
+2012-05-26,Austin,82
+2012-05-27,San Francisco,52
+2012-05-27,New York,71
+2012-05-27,Austin,80
+2012-05-28,San Francisco,52
+2012-05-28,New York,74
+2012-05-28,Austin,80
+2012-05-29,San Francisco,52
+2012-05-29,New York,75
+2012-05-29,Austin,82
+2012-05-30,San Francisco,52
+2012-05-30,New York,72
+2012-05-30,Austin,81
+2012-05-31,San Francisco,53
+2012-05-31,New York,72
+2012-05-31,Austin,82
+2012-06-01,San Francisco,54
+2012-06-01,New York,67
+2012-06-01,Austin,77
+2012-06-02,San Francisco,54
+2012-06-02,New York,68
+2012-06-02,Austin,81
+2012-06-03,San Francisco,52
+2012-06-03,New York,67
+2012-06-03,Austin,82
+2012-06-04,San Francisco,55
+2012-06-04,New York,61
+2012-06-04,Austin,81
+2012-06-05,San Francisco,53
+2012-06-05,New York,58
+2012-06-05,Austin,83
+2012-06-06,San Francisco,54
+2012-06-06,New York,61
+2012-06-06,Austin,83
+2012-06-07,San Francisco,53
+2012-06-07,New York,66
+2012-06-07,Austin,82
+2012-06-08,San Francisco,54
+2012-06-08,New York,68
+2012-06-08,Austin,77
+2012-06-09,San Francisco,55
+2012-06-09,New York,72
+2012-06-09,Austin,77
+2012-06-10,San Francisco,60
+2012-06-10,New York,72
+2012-06-10,Austin,82
+2012-06-11,San Francisco,57
+2012-06-11,New York,69
+2012-06-11,Austin,86
+2012-06-12,San Francisco,55
+2012-06-12,New York,66
+2012-06-12,Austin,85
+2012-06-13,San Francisco,53
+2012-06-13,New York,66
+2012-06-13,Austin,76
+2012-06-14,San Francisco,53
+2012-06-14,New York,67
+2012-06-14,Austin,84
+2012-06-15,San Francisco,54
+2012-06-15,New York,68
+2012-06-15,Austin,84
+2012-06-16,San Francisco,57
+2012-06-16,New York,67
+2012-06-16,Austin,83
+2012-06-17,San Francisco,55
+2012-06-17,New York,64
+2012-06-17,Austin,82
+2012-06-18,San Francisco,52
+2012-06-18,New York,61
+2012-06-18,Austin,82
+2012-06-19,San Francisco,53
+2012-06-19,New York,66
+2012-06-19,Austin,82
+2012-06-20,San Francisco,55
+2012-06-20,New York,77
+2012-06-20,Austin,81
+2012-06-21,San Francisco,53
+2012-06-21,New York,88
+2012-06-21,Austin,80
+2012-06-22,San Francisco,54
+2012-06-22,New York,82
+2012-06-22,Austin,81
+2012-06-23,San Francisco,55
+2012-06-23,New York,77
+2012-06-23,Austin,83
+2012-06-24,San Francisco,55
+2012-06-24,New York,75
+2012-06-24,Austin,85
+2012-06-25,San Francisco,56
+2012-06-25,New York,70
+2012-06-25,Austin,87
+2012-06-26,San Francisco,57
+2012-06-26,New York,65
+2012-06-26,Austin,88
+2012-06-27,San Francisco,57
+2012-06-27,New York,73
+2012-06-27,Austin,89
+2012-06-28,San Francisco,56
+2012-06-28,New York,77
+2012-06-28,Austin,86
+2012-06-29,San Francisco,56
+2012-06-29,New York,79
+2012-06-29,Austin,85
+2012-06-30,San Francisco,58
+2012-06-30,New York,84
+2012-06-30,Austin,81
+2012-07-01,San Francisco,58
+2012-07-01,New York,81
+2012-07-01,Austin,78
+2012-07-02,San Francisco,56
+2012-07-02,New York,82
+2012-07-02,Austin,83
+2012-07-03,San Francisco,56
+2012-07-03,New York,80
+2012-07-03,Austin,83
+2012-07-04,San Francisco,55
+2012-07-04,New York,77
+2012-07-04,Austin,84
+2012-07-05,San Francisco,54
+2012-07-05,New York,86
+2012-07-05,Austin,84
+2012-07-06,San Francisco,54
+2012-07-06,New York,79
+2012-07-06,Austin,84
+2012-07-07,San Francisco,54
+2012-07-07,New York,83
+2012-07-07,Austin,86
+2012-07-08,San Francisco,52
+2012-07-08,New York,81
+2012-07-08,Austin,84
+2012-07-09,San Francisco,53
+2012-07-09,New York,77
+2012-07-09,Austin,83
+2012-07-10,San Francisco,53
+2012-07-10,New York,76
+2012-07-10,Austin,77
+2012-07-11,San Francisco,52
+2012-07-11,New York,76
+2012-07-11,Austin,77
+2012-07-12,San Francisco,52
+2012-07-12,New York,75
+2012-07-12,Austin,80
+2012-07-13,San Francisco,53
+2012-07-13,New York,77
+2012-07-13,Austin,81
+2012-07-14,San Francisco,54
+2012-07-14,New York,79
+2012-07-14,Austin,80
+2012-07-15,San Francisco,54
+2012-07-15,New York,78
+2012-07-15,Austin,81
+2012-07-16,San Francisco,54
+2012-07-16,New York,79
+2012-07-16,Austin,77
+2012-07-17,San Francisco,56
+2012-07-17,New York,83
+2012-07-17,Austin,80
+2012-07-18,San Francisco,57
+2012-07-18,New York,84
+2012-07-18,Austin,81
+2012-07-19,San Francisco,57
+2012-07-19,New York,75
+2012-07-19,Austin,80
+2012-07-20,San Francisco,58
+2012-07-20,New York,68
+2012-07-20,Austin,83
+2012-07-21,San Francisco,57
+2012-07-21,New York,68
+2012-07-21,Austin,85
+2012-07-22,San Francisco,56
+2012-07-22,New York,72
+2012-07-22,Austin,83
+2012-07-23,San Francisco,56
+2012-07-23,New York,75
+2012-07-23,Austin,84
+2012-07-24,San Francisco,57
+2012-07-24,New York,82
+2012-07-24,Austin,83
+2012-07-25,San Francisco,57
+2012-07-25,New York,78
+2012-07-25,Austin,84
+2012-07-26,San Francisco,56
+2012-07-26,New York,77
+2012-07-26,Austin,84
+2012-07-27,San Francisco,55
+2012-07-27,New York,79
+2012-07-27,Austin,84
+2012-07-28,San Francisco,55
+2012-07-28,New York,77
+2012-07-28,Austin,83
+2012-07-29,San Francisco,55
+2012-07-29,New York,72
+2012-07-29,Austin,85
+2012-07-30,San Francisco,55
+2012-07-30,New York,72
+2012-07-30,Austin,84
+2012-07-31,San Francisco,55
+2012-07-31,New York,73
+2012-07-31,Austin,86
+2012-08-01,San Francisco,55
+2012-08-01,New York,75
+2012-08-01,Austin,86
+2012-08-02,San Francisco,54
+2012-08-02,New York,77
+2012-08-02,Austin,85
+2012-08-03,San Francisco,53
+2012-08-03,New York,79
+2012-08-03,Austin,85
+2012-08-04,San Francisco,54
+2012-08-04,New York,79
+2012-08-04,Austin,86
+2012-08-05,San Francisco,57
+2012-08-05,New York,81
+2012-08-05,Austin,84
+2012-08-06,San Francisco,58
+2012-08-06,New York,80
+2012-08-06,Austin,81
+2012-08-07,San Francisco,58
+2012-08-07,New York,75
+2012-08-07,Austin,86
+2012-08-08,San Francisco,57
+2012-08-08,New York,77
+2012-08-08,Austin,86
+2012-08-09,San Francisco,55
+2012-08-09,New York,78
+2012-08-09,Austin,86
+2012-08-10,San Francisco,54
+2012-08-10,New York,77
+2012-08-10,Austin,88
+2012-08-11,San Francisco,53
+2012-08-11,New York,78
+2012-08-11,Austin,85
+2012-08-12,San Francisco,52
+2012-08-12,New York,78
+2012-08-12,Austin,87
+2012-08-13,San Francisco,53
+2012-08-13,New York,78
+2012-08-13,Austin,88
+2012-08-14,San Francisco,53
+2012-08-14,New York,76
+2012-08-14,Austin,88
+2012-08-15,San Francisco,56
+2012-08-15,New York,76
+2012-08-15,Austin,87
+2012-08-16,San Francisco,57
+2012-08-16,New York,75
+2012-08-16,Austin,86
+2012-08-17,San Francisco,55
+2012-08-17,New York,77
+2012-08-17,Austin,86
+2012-08-18,San Francisco,56
+2012-08-18,New York,72
+2012-08-18,Austin,84
+2012-08-19,San Francisco,54
+2012-08-19,New York,70
+2012-08-19,Austin,76
+2012-08-20,San Francisco,53
+2012-08-20,New York,71
+2012-08-20,Austin,80
+2012-08-21,San Francisco,53
+2012-08-21,New York,73
+2012-08-21,Austin,80
+2012-08-22,San Francisco,54
+2012-08-22,New York,74
+2012-08-22,Austin,78
+2012-08-23,San Francisco,55
+2012-08-23,New York,74
+2012-08-23,Austin,79
+2012-08-24,San Francisco,54
+2012-08-24,New York,76
+2012-08-24,Austin,81
+2012-08-25,San Francisco,53
+2012-08-25,New York,76
+2012-08-25,Austin,84
+2012-08-26,San Francisco,56
+2012-08-26,New York,73
+2012-08-26,Austin,83
+2012-08-27,San Francisco,58
+2012-08-27,New York,74
+2012-08-27,Austin,82
+2012-08-28,San Francisco,58
+2012-08-28,New York,79
+2012-08-28,Austin,84
+2012-08-29,San Francisco,57
+2012-08-29,New York,74
+2012-08-29,Austin,85
+2012-08-30,San Francisco,55
+2012-08-30,New York,73
+2012-08-30,Austin,87
+2012-08-31,San Francisco,55
+2012-08-31,New York,77
+2012-08-31,Austin,82
+2012-09-01,San Francisco,55
+2012-09-01,New York,80
+2012-09-01,Austin,84
+2012-09-02,San Francisco,53
+2012-09-02,New York,75
+2012-09-02,Austin,83
+2012-09-03,San Francisco,53
+2012-09-03,New York,73
+2012-09-03,Austin,85
+2012-09-04,San Francisco,52
+2012-09-04,New York,73
+2012-09-04,Austin,86
+2012-09-05,San Francisco,54
+2012-09-05,New York,77
+2012-09-05,Austin,85
+2012-09-06,San Francisco,56
+2012-09-06,New York,74
+2012-09-06,Austin,85
+2012-09-07,San Francisco,56
+2012-09-07,New York,76
+2012-09-07,Austin,85
+2012-09-08,San Francisco,56
+2012-09-08,New York,77
+2012-09-08,Austin,81
+2012-09-09,San Francisco,56
+2012-09-09,New York,69
+2012-09-09,Austin,74
+2012-09-10,San Francisco,55
+2012-09-10,New York,67
+2012-09-10,Austin,71
+2012-09-11,San Francisco,56
+2012-09-11,New York,64
+2012-09-11,Austin,75
+2012-09-12,San Francisco,55
+2012-09-12,New York,68
+2012-09-12,Austin,82
+2012-09-13,San Francisco,54
+2012-09-13,New York,69
+2012-09-13,Austin,80
+2012-09-14,San Francisco,55
+2012-09-14,New York,70
+2012-09-14,Austin,70
+2012-09-15,San Francisco,54
+2012-09-15,New York,69
+2012-09-15,Austin,71
+2012-09-16,San Francisco,52
+2012-09-16,New York,66
+2012-09-16,Austin,70
+2012-09-17,San Francisco,54
+2012-09-17,New York,67
+2012-09-17,Austin,72
+2012-09-18,San Francisco,54
+2012-09-18,New York,72
+2012-09-18,Austin,73
+2012-09-19,San Francisco,56
+2012-09-19,New York,67
+2012-09-19,Austin,72
+2012-09-20,San Francisco,55
+2012-09-20,New York,62
+2012-09-20,Austin,71
+2012-09-21,San Francisco,55
+2012-09-21,New York,64
+2012-09-21,Austin,72
+2012-09-22,San Francisco,55
+2012-09-22,New York,65
+2012-09-22,Austin,73
+2012-09-23,San Francisco,52
+2012-09-23,New York,65
+2012-09-23,Austin,75
+2012-09-24,San Francisco,54
+2012-09-24,New York,60
+2012-09-24,Austin,78
+2012-09-25,San Francisco,53
+2012-09-25,New York,63
+2012-09-25,Austin,78
+2012-09-26,San Francisco,53
+2012-09-26,New York,68
+2012-09-26,Austin,79
+2012-09-27,San Francisco,52
+2012-09-27,New York,69
+2012-09-27,Austin,76
+2012-09-28,San Francisco,52
+2012-09-28,New York,68
+2012-09-28,Austin,77
+2012-09-29,San Francisco,53
+2012-09-29,New York,62
+2012-09-29,Austin,75
+2012-09-30,San Francisco,55
+2012-09-30,New York,62
+2012-09-30,Austin,71

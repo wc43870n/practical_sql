@@ -1,0 +1,123 @@
+The following exercises are intended to help consolidate your grasp of the
+material discussed in class, and then begin to extend it.  The first goal is to
+get you comfortable with the basic tasks of writing queries and loading data.
+
+However, some of the exercises begin to point to concepts we'll be touching on
+in later classes.  Do the best you can with all of this -- some of the problems
+you hit will help you see the motivation for some of our material.
+
+Also, some the exercises ask you to go to external sources for data and
+references.  Researching syntax and tools for particular problems is part of
+using any computer language -- you'll be going to google after the class is
+over, might as well start now.
+
+
+
+Loading CSV Data
+----------------
+
+1.  Using the files in practical_sql/sessions/01/examples/load_csv, load the
+    data in the file simple.csv to a database table.
+
+2.  Write your own queries to load the data in the temperatures.csv to a
+    database table, assigning the date field a SQL data type of DATE and the
+    temperature field a SQL data type of INTEGER.
+    
+    NOTES:
+    - The INTEGER type assignment must use parentheses holding a value.  Use INTEGER(4).
+    - The DATE type does not use parentheses.
+
+    - If you are having trouble and can't figure out the problem, first and
+      load the table using type VARCHAR(20) for all fields (as in the example).
+      Then begin to add typing for the fields, one by one.  This will help you
+      see what particular problems you may be having.
+
+3.  Bonus Round.
+
+    Load a month of historical stock price data for Apple, from Google Finance,
+    into a database table.  Make the data as useful as possible -- but I expect
+    you will a limit to how far you can go without doing something crazy.
+
+    NOTE
+    If you struggle with this, don't worry.  We'll be discussing the necessary
+    concepts in class.
+
+    GETTING DATA
+    Download month of stock price data for Apple from Google Finance.  (Go to
+    the page for Apple, click 'historical prices', find and click the 'download
+    to spreadsheet' button -- this downloads CSV.)
+
+    LOAD QUERy
+    Write queries loading that data into a database table.
+    -   Use data type INT for all the numeric values.  But looking at the data,
+        are there any issues with that?  We'll come back to this.
+
+    BEWARE
+    -   Mac users may find that a perfectly valid LOAD query loads . . .
+        nothing.  Particularly when copied from the example.
+    -   What might be going wrong here?
+    -   What might you experiment with?
+
+    DATE VALUES
+    After you get data into the table, notice that your date column is full of
+    zero dates.  Redo the load, using the VARCHAR data type.
+
+    NUMBERIC VALUES
+    We are dropping decimal points as we load this data.  What if we wanted to
+    keep them?  Google for how SQL handles decimal data, and see if you can
+    modify your LOAD query to capture the decimal points.
+
+    DATA CLEANING
+    MySQL requires that date data for LOAD be formatted YYYY-MM-DD.  How could
+    we reformat the data to create it loaded properly?
+    -   How could we used Excel to reformat the data?
+    -   How might we use SQL?  (Conceptually.  The particulars required
+        concepts and functions we haven't discussed yet.)
+
+    
+Writing Queries
+---------------
+All of these queries use the tables in the sampdb database.  The exercises give
+the names of the tables and fields to be used.
+
+A.  These questions use the table 'president', with fields 'last_name', 'state'
+    and 'birth' (among others).
+
+1.  How many records are in the table 'president'?
+2.  Does the 'president' table have a record for Barack Obama?
+3.  Write a query that counts the number of presidents from each state.
+4.  Write a query that counts the number of presidents born before 1900-01-01.
+
+
+B.  These questions use the table 'grade_event', with fields 'event_id',
+    'category', and 'date'
+
+1.  How many records are there?
+2.  Count the number of records by event_id.  What is the maximum number?
+3.  Count the number of records by category.  What is the maximum number?
+
+
+C.  These questions use the table 'student', with fields 'name', 'student', and
+    'student_id'.  
+
+1.  Count the number of records by sex.
+2.  Count the number of records by student_id.  What is the maximum number?
+
+
+D.  These questions use the table 'score', which has fields 'student_id',
+    'event_id', and 'score'.
+
+1.  Write a query returning records only for student_id 10.
+2.  Write a query returning records only for event_id 3.
+3.  Write a query returning records with scores above 15.
+4.  Write a query returning records with scores above 15 for event_id 5.
+5.  Write a query counting the number of records for each event.
+6.  Write a query counting the number of records for each combination of
+     values for event_id and student_id.  (HINT: Add something to the GROUP BY
+     clause.)   Is there any count greater than one?
+7.  Write a query averaging the score for each event.
+8.  Write a query averaging the score for each student.
+9.  Write a query reporting the count of records and average score for each event.
+10.  BONUS Write a query returning the standard deviation for the score for
+    each event.  (Hint: Google.)
+

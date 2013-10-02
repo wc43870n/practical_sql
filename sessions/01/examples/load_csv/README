@@ -1,0 +1,23 @@
+PURPOSE
+-------
+This directory holds example queries for generating and loading an SQL database
+table from a CSV file.
+
+PROCESS
+-------
+Run these queries in this order:
+
+- create_database_csv_load.sql
+- create_table_simple.sql
+- load_simple.sql
+
+If all went well, the following should generate a result:
+- select_from_csvl.sql
+
+
+NOTE
+----
+Though one field is labeled 'date', the values of that field are of type
+VARCHAR.  This means they are text, and in operations perform as we would
+expect for text, rather than 'date', data.
+

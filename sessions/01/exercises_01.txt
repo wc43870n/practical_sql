@@ -1,0 +1,8 @@
+Loading CSV Data
+----------------
+
+1.  Using the files in practical_sql/sessions/01/examples/load_csv, load the
+    data in the file simple.csv to a database table.
+
+2.  
+
