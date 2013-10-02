@@ -1,0 +1,18 @@
+Email sent to class list, 2013-10-02
+
+I have pushed the deck, class queries, exercises and an example of CSV load scripts to the repository at github.com/chernevik/practical_sql.   You can download from there.  This link -- https://github.com/chernevik/practical_sql/archive/master.zip -- should also get the zip archive (now, and in the future).
+
+GIT AND FILES
+A note about Github and how Git works.  A git repository grows over time -- I have just added these files to the directory package you downloaded before class.  All the old files are there now, plus the new ones.  If you download this zip file, it will be a copy of what you've already got, PLUS the new stuff.  If you haven't saved any files of your own in that prior download directory, I would just delete it, or you'll ever an ever growing pile of redundant directories floating around.
+
+If you use git to manage all of this, and have cloned that repo, you can get just the new files by issuing a 'git pull' command.  Git is usually a commandline tool, but Github does publish a GUI tool for OSX 10.8.  I know nothing about it bc I'm still on 10.6, but you could give that a try.  That would make your downloads faster.  Also, if you save files of your own in that directory structure, those pulls will add the news stuff without overwriting your own.  Handy.
+
+If there is interest, we could look at providing a channel on github for students to share and discuss exercise solutions.
+
+
+OFFICE HOURS?
+I have had enquiries about office hours.  How much interest is there?  Most convenient times would be Thursday afternoons, Friday at lunch time or maybe Monday at lunch time.  If there is interest I can talk to the G.A. folks about space.
+
+
+FEEDBACK
+Please give me any feedback you may have -- class too slow, too fast, this or that topic not clear / overemphasized / neglected.  As I said at the top, my goal for class one was to have more slides than we could discuss -- mission accomplished -- if I can I will try to push the pace.  There is a lot we could cover, and I'd like to do as much as we can, consistent with solid comprehension of what we do cover.
