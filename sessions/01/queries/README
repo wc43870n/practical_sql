@@ -1,0 +1,8 @@
+These files hold queries used in class, and a couple we didnt' get to.
+
+Note that there are several versions of 01_simple, in different file formats.
+I sometimes use these to demonstrate the differences in loading a text file and
+a .doc file to a query editor.  Note also the size of these files -- if you
+have query file sized in kilobytes, odds are good something is amiss.  (Data
+file sizes, on the other hand, are an entirely different kettle of fish.)
+
