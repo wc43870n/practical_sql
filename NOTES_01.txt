@@ -1,0 +1,26 @@
+This note accompanies additions of files to the repository package.
+
+Additions are in or under the directory sessions/01, and include:
+-   A PDF of last night's deck
+-   Queries and files for loading a CSV file to a database -- see examples/load_csv
+-   Exercises
+
+The exercises are deliberately written to provide a range of difficulty.  A few
+require obtaining external data and / or googling about SQL for yourself.
+Please do the best you can with as many of these as you can.  Your efforts to
+figure out the problems will help you grasp the concepts and tools we are
+using.  Some of these problems point to issues of data management and analysis,
+and our use of SQL to meet them.  You'll have better motivation for those
+discussions if you've begun thinking about the problems before we begin those
+discussions.
+
+There is no need to submit your solutions.  If people are interested, we can
+look at creating a channel for sharing and dicussion solutions among
+yourselves.
+
+Please feel free to reach out to me if you have questions or are struggling.  I
+want to help, and to keep an eye on the calibration of these exercises'
+difficulty.
+
+gordon@practicalhorseshoeing.com
+
