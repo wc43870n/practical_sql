@@ -1,0 +1,16 @@
+This note accompanies additions of files after session 02 to the repository package.
+
+Additions are in or under the directory sessions/02, and include:
+-   A PDF of last night's deck
+-   Exercises
+    other matters.
+
+Later this week I will put up more exercises and solutions to last week's
+exercises.
+
+Please feel free to reach out to me if you have questions or are struggling.  I
+want to help, and to keep an eye on the calibration of these exercises'
+difficulty.
+
+gordon@practicalhorseshoeing.com
+

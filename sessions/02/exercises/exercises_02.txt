@@ -1,0 +1,152 @@
+==============================================================================
+DATABASE EXPLORATION
+
+1.  Load the database 'books', from the file setup_books_mysql.sql.
+2.  Use the query / command SHOW TABLES to see what tables are available in the
+    database.  
+3.  For several tables, use the command 'DESCRIBE TABLE' to see what
+    fields they hold.
+4.  Write a query that counts the number of records in a given table.  Use that
+    to explore the size of several tables.
+5.  Write queries using SELECT DISTINCT, and counting records using GROUP BY, 
+    to explore the subsets of several of the tables.  Explore both single 
+    fields and tuples.
+
+These exercises are a little vague, but the idea is to first, see how you can
+use commands and queries to orient yourself to the contents of a database and
+its tables, and to get a feel for how you can re-use query files for repetitive
+tasks.
+
+
+==============================================================================
+JOINS
+
+These questions use the database books, loaded in the exercises above.
+
+Inner Join
+----------
+1.  Write a query "joining" all the rows in authors with all the rows in 
+    publishers.
+
+2.  Return all joined rows, but only the fields author id, author first and 
+    last name, author city, publisher city, and publisher name.
+    -   It might be useful to print out this output, inspect it, and circle
+        those author city / publisher city pairs where the cities are the same.
+    -   Think a bit on how you would modify this query to filter it to get only
+        those records.  What logical statement is true of only those?
+
+3.  Write a query showing which authors live in the same city as a publisher.
+    Return the author's first and last name, id, the city, and the name of the
+    publiser in that city.
+
+4.  Write a query that lists only the author ids of those authors who live in 
+    the same city as a publisher.
+
+
+Left Join
+---------
+1.  Write a LEFT JOIN query, joing authors and publishers on city.
+    - You should get more rows than when you did the first query.
+    - Look at the output.  What logical statement is true for those authors who
+      do not live in the same city as a publisher?
+
+2.  Write a query that returns only those authors that do not live in the same
+    city as a publisher.
+
+
+==============================================================================
+SCALAR FUNCTIONS
+
+
+Load the database homework, from the file setup_homework_mysql.sql.
+
+------------------------------------------------------------------------------
+Reformatting date values
+------------------------
+
+The following exercises walk through the components of an expression that would
+convert a string such '1-Oct-13', as might be downloaded from Google Finance,
+into the string '2013-10-01', as would be required for insertion into a Date
+type field.
+
+While the exercise is motivated by a data-cleaning problem, it also provides a
+walk through of the use of functions in combination with one another, and
+introduces some additional functions, in particular IF.  So it should be of use
+even to those students uninterested in data cleaning.
+
+1. Consider the table 'date_string'.  Write a query that returns:
+    -   The position of the first '-' character
+    -   The position of the second '-' character
+    -   The characters preceding the first '-'
+    -   The characters between the two '-' characters
+    -   The characters after the second '-'
+
+    Note that in class I mentioned that the string finding function POSITION()
+    allows an argument giving the start of a search for a string.  The function
+    that does this is actually LOCATE().  
+    
+    LOCATE differs from POSITION in that:
+    -   It does not take an IN expression.  So 
+
+            POSITION('@' IN 'fred@bedrock.com')
+
+        becomes
+    
+            LOCATE('@', 'fred@bedrock.com')
+
+    -   It can take an optional argument designating the start position of the
+        search.  So
+
+        LOCATE('e', 'fred@bedrock.com', 4)
+
+        would return the position of the 'e' in 'bedrock', not that of the 'e'
+        in 'fred'.
+
+
+2.  Write an expression that prepends '20' to an integer.  So '13' should
+    become '2013'.
+
+3.  An IF function takes 3 arguments -- a condition, a return value if true,
+    and a return value if false.  So IF(LENGTH('1') = 1, '0', '') returns '0'.
+
+    -   Write an expression that uses the IF() function to zero-pad an integer
+        to two digits.  So '1' should be '01', and '11' should be '11'.
+
+4   The MySQL function STR_TO_DATE() converts strings to date values.  It's a
+    powerful function with many options, but one usage can convert a month
+    abbreviation to a date.  So the invocation 
+
+        STR_TO_DATE('Mar', '%b')
+
+    returns a Date type value of:
+
+        0000-03-00
+
+    -   Write an expression, using the date functions mentioned in class, that
+        returns the month of such a value to a number.
+    -   Write an expression extending that expression to zero-pad that number
+        to two digits.
+
+5.  Given these various expressions, write an expression converting dates in
+    the table date_string to strings of the format 'YYYY-MM-DD'.
+
+6.  Bonus Round.  As mentioned, STR_TO_DATE() is a powerful function.  It is
+    documented at dev.mysql.com/doc/refman/5.5/en/date-and-time-functions.html.
+    Can you write an expression using this function to convert our dates
+    directly to YYYY-MM-DD?
+
+    (Don't spend too much time on this.  A solution relies on usage of date
+    string formatting specifications -- things like this are very powerful, and
+    are used in a variety of programming contexts, but can be tricky to use.  A
+    strong grasp of SQL doesn't dependent on them.)
+
+
+==============================================================================
+
+
+
+
+    
+
+
+
