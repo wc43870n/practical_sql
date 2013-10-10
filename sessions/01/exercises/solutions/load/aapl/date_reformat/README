@@ -1,0 +1,18 @@
+These two queries provide one path to reformatting the date data from Google
+finance for load to a SQL table.
+
+1   Run the query 'create_view.date_clean.sql'.
+
+        This creates a 'VIEW', essentially a stored query that behaves like a
+        table.  It is referred to in other queries as if it were a table.
+        Unlike tables, its values are not stored, but calculated at the moment
+        when the VIEW is called on.
+
+        The query in this VIEW decomposes the Google Finance date strings into
+        components supporting transformation to yyyy-mm-dd format.
+
+2   Run reformat_date.sql.  This query shows how to use the values retrieved by
+    the date_clean VIEW to construct the date strings in the format needed for 
+    load to a SQL database.
+
+
