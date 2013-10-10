@@ -1,3 +1,12 @@
+#==================================================
+#   Create database
+
+DROP DATABASE IF EXISTS homework;
+CREATE DATABASE homework;
+
+
+#==================================================
+
 -- MySQL dump 10.13  Distrib 5.5.32, for debian-linux-gnu (i686)
 --
 -- Host: localhost    Database: homework
@@ -19,10 +28,10 @@
 -- Table structure for table `date_string`
 --
 
-DROP TABLE IF EXISTS `date_string`;
+DROP TABLE IF EXISTS homework.date_string;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!40101 SET character_set_client = utf8 */;
-CREATE TABLE `date_string` (
+CREATE TABLE homework.date_string (
   `date_as_string` varchar(15) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
@@ -31,10 +40,10 @@ CREATE TABLE `date_string` (
 -- Dumping data for table `date_string`
 --
 
-LOCK TABLES `date_string` WRITE;
-/*!40000 ALTER TABLE `date_string` DISABLE KEYS */;
-INSERT INTO `date_string` VALUES ('1-Jan-13'),('15-Jan-13'),('1-Feb-13'),('15-Feb-13'),('1-Mar-13'),('15-Mar-13'),('1-Apr-13'),('15-Apr-13'),('1-May-13'),('15-May-13'),('1-Jun-13'),('15-Jun-13'),('1-Jul-13'),('15-Jul-13'),('1-Aug-13'),('15-Aug-13'),('1-Sep-13'),('15-Sep-13'),('1-Oct-13'),('15-Oct-13'),('1-Nov-13'),('15-Nov-13'),('1-Dec-13'),('15-Dec-13');
-/*!40000 ALTER TABLE `date_string` ENABLE KEYS */;
+LOCK TABLES homework.date_string WRITE;
+/*!40000 ALTER TABLE homework.date_string DISABLE KEYS */;
+INSERT INTO homework.date_string VALUES ('1-Jan-13'),('15-Jan-13'),('1-Feb-13'),('15-Feb-13'),('1-Mar-13'),('15-Mar-13'),('1-Apr-13'),('15-Apr-13'),('1-May-13'),('15-May-13'),('1-Jun-13'),('15-Jun-13'),('1-Jul-13'),('15-Jul-13'),('1-Aug-13'),('15-Aug-13'),('1-Sep-13'),('15-Sep-13'),('1-Oct-13'),('15-Oct-13'),('1-Nov-13'),('15-Nov-13'),('1-Dec-13'),('15-Dec-13');
+/*!40000 ALTER TABLE homework.date_string ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
