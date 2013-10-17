@@ -1,0 +1,41 @@
+Exercises, Post Class 03
+------------------------
+
+SUBQUERIES
+----------
+Filtering and Calculating by Subquery
+-------------------------------------
+These exercises require a table with president's age.  Please create such at
+table.  (Note that the queries shown in class are included in the class_queries/
+subdirectory.)
+
+NB: None of these require a correlated subquery.
+
+1.  Write a query returning a list of presidents who lived longer than the
+    average for the data set.
+
+2.  Write a query returning the age of the third longest living president.
+
+3.  Write a query returning the number of presidents from the state with the
+    greatest number of presidents.  (NB: Pass a column alias out of the
+    subquery to the aggregating function of the calling query.)
+
+4.  Write a query returning the name of the state with the largest number of
+    presidents.  (NB: This may require two subqueries, one in FROM, another in
+    WHERE.)
+
+5.  Write a query returning a list of presidents, from the state with the
+    largest number of presidents, who lived longer than the average life span
+    of all presidents.
+
+6.  Write a query returning, from table score, for event #1
+    -   the event_id, student_id, score and average score for the event
+    -   for those student who scored above average
+
+    NB: You do NOT need a correlated subquery here.
+
+7.  From president, for those states that have more than one president of the
+    same last name, return the state, the duplicated last name, and the number
+    of presidents of with that last name.
+
+

@@ -1,0 +1,11 @@
+These are the queries for two analytic flows to list of longest lived president
+of each state. 
+
+The numbered queries comprises the VIEW approach.  They must be run in numeric
+order, as each depends on the VIEW created in the prior queries.
+
+The not-numbered query shows the generation of the same result by subquery,
+without use of VIEW statements.
+
+
+
