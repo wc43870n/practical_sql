@@ -1,0 +1,11 @@
++-------+-----------+-------------+---------------+---------------+-------------------+
+| au_id | au_fname  | au_lname    | a_city        | p_city        | pub_name          |
++-------+-----------+-------------+---------------+---------------+-------------------+
+| A02   | Wendy     | Heydemark   | Boulder       | NULL          | NULL              |
+| A01   | Sarah     | Buchman     | Bronx         | NULL          | NULL              |
+| A05   | Christian | Kells       | New York      | New York      | Abatis Publishers |
+| A06   |           | Kellsey     | Palo Alto     | NULL          | NULL              |
+| A04   | Klee      | Hull        | San Francisco | San Francisco | Core Dump Books   |
+| A03   | Hallie    | Hull        | San Francisco | San Francisco | Core Dump Books   |
+| A07   | Paddy     | O'Furniture | Sarasota      | NULL          | NULL              |
++-------+-----------+-------------+---------------+---------------+-------------------+

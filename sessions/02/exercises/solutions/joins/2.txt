@@ -1,0 +1,32 @@
++-------+-----------+-------------+---------------+---------------+---------------------+
+| au_id | au_fname  | au_lname    | city          | city          | pub_name            |
++-------+-----------+-------------+---------------+---------------+---------------------+
+| A02   | Wendy     | Heydemark   | Boulder       | Berkeley      | Tenterhooks Press   |
+| A02   | Wendy     | Heydemark   | Boulder       | Hamburg       | Schadenfreude Press |
+| A02   | Wendy     | Heydemark   | Boulder       | New York      | Abatis Publishers   |
+| A02   | Wendy     | Heydemark   | Boulder       | San Francisco | Core Dump Books     |
+| A01   | Sarah     | Buchman     | Bronx         | Berkeley      | Tenterhooks Press   |
+| A01   | Sarah     | Buchman     | Bronx         | Hamburg       | Schadenfreude Press |
+| A01   | Sarah     | Buchman     | Bronx         | New York      | Abatis Publishers   |
+| A01   | Sarah     | Buchman     | Bronx         | San Francisco | Core Dump Books     |
+| A05   | Christian | Kells       | New York      | Berkeley      | Tenterhooks Press   |
+| A05   | Christian | Kells       | New York      | Hamburg       | Schadenfreude Press |
+| A05   | Christian | Kells       | New York      | New York      | Abatis Publishers   |
+| A05   | Christian | Kells       | New York      | San Francisco | Core Dump Books     |
+| A06   |           | Kellsey     | Palo Alto     | Berkeley      | Tenterhooks Press   |
+| A06   |           | Kellsey     | Palo Alto     | Hamburg       | Schadenfreude Press |
+| A06   |           | Kellsey     | Palo Alto     | New York      | Abatis Publishers   |
+| A06   |           | Kellsey     | Palo Alto     | San Francisco | Core Dump Books     |
+| A03   | Hallie    | Hull        | San Francisco | Berkeley      | Tenterhooks Press   |
+| A04   | Klee      | Hull        | San Francisco | Berkeley      | Tenterhooks Press   |
+| A04   | Klee      | Hull        | San Francisco | Hamburg       | Schadenfreude Press |
+| A03   | Hallie    | Hull        | San Francisco | Hamburg       | Schadenfreude Press |
+| A03   | Hallie    | Hull        | San Francisco | New York      | Abatis Publishers   |
+| A04   | Klee      | Hull        | San Francisco | New York      | Abatis Publishers   |
+| A03   | Hallie    | Hull        | San Francisco | San Francisco | Core Dump Books     |
+| A04   | Klee      | Hull        | San Francisco | San Francisco | Core Dump Books     |
+| A07   | Paddy     | O'Furniture | Sarasota      | Berkeley      | Tenterhooks Press   |
+| A07   | Paddy     | O'Furniture | Sarasota      | Hamburg       | Schadenfreude Press |
+| A07   | Paddy     | O'Furniture | Sarasota      | New York      | Abatis Publishers   |
+| A07   | Paddy     | O'Furniture | Sarasota      | San Francisco | Core Dump Books     |
++-------+-----------+-------------+---------------+---------------+---------------------+

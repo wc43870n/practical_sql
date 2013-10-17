@@ -1,0 +1,7 @@
++-------+-----------+----------+---------------+---------------+-------------------+
+| au_id | au_fname  | au_lname | a_city        | p_city        | pub_name          |
++-------+-----------+----------+---------------+---------------+-------------------+
+| A05   | Christian | Kells    | New York      | New York      | Abatis Publishers |
+| A03   | Hallie    | Hull     | San Francisco | San Francisco | Core Dump Books   |
+| A04   | Klee      | Hull     | San Francisco | San Francisco | Core Dump Books   |
++-------+-----------+----------+---------------+---------------+-------------------+

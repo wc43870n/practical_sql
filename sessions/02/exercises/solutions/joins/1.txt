@@ -1,0 +1,32 @@
++-------+-----------+-------------+--------------+----------------------+---------------+-------+-------+--------+---------------------+---------------+-------+---------+
+| au_id | au_fname  | au_lname    | phone        | address              | city          | state | zip   | pub_id | pub_name            | city          | state | country |
++-------+-----------+-------------+--------------+----------------------+---------------+-------+-------+--------+---------------------+---------------+-------+---------+
+| A01   | Sarah     | Buchman     | 718-496-7223 | 75 West 205 St       | Bronx         | NY    | 10468 | P01    | Abatis Publishers   | New York      | NY    | USA     |
+| A01   | Sarah     | Buchman     | 718-496-7223 | 75 West 205 St       | Bronx         | NY    | 10468 | P02    | Core Dump Books     | San Francisco | CA    | USA     |
+| A01   | Sarah     | Buchman     | 718-496-7223 | 75 West 205 St       | Bronx         | NY    | 10468 | P03    | Schadenfreude Press | Hamburg       | NULL  | Germany |
+| A01   | Sarah     | Buchman     | 718-496-7223 | 75 West 205 St       | Bronx         | NY    | 10468 | P04    | Tenterhooks Press   | Berkeley      | CA    | USA     |
+| A02   | Wendy     | Heydemark   | 303-986-7020 | 2922 Baseline Rd     | Boulder       | CO    | 80303 | P01    | Abatis Publishers   | New York      | NY    | USA     |
+| A02   | Wendy     | Heydemark   | 303-986-7020 | 2922 Baseline Rd     | Boulder       | CO    | 80303 | P02    | Core Dump Books     | San Francisco | CA    | USA     |
+| A02   | Wendy     | Heydemark   | 303-986-7020 | 2922 Baseline Rd     | Boulder       | CO    | 80303 | P03    | Schadenfreude Press | Hamburg       | NULL  | Germany |
+| A02   | Wendy     | Heydemark   | 303-986-7020 | 2922 Baseline Rd     | Boulder       | CO    | 80303 | P04    | Tenterhooks Press   | Berkeley      | CA    | USA     |
+| A03   | Hallie    | Hull        | 415-549-4278 | 3800 Waldo Ave, #14F | San Francisco | CA    | 94123 | P01    | Abatis Publishers   | New York      | NY    | USA     |
+| A03   | Hallie    | Hull        | 415-549-4278 | 3800 Waldo Ave, #14F | San Francisco | CA    | 94123 | P02    | Core Dump Books     | San Francisco | CA    | USA     |
+| A03   | Hallie    | Hull        | 415-549-4278 | 3800 Waldo Ave, #14F | San Francisco | CA    | 94123 | P03    | Schadenfreude Press | Hamburg       | NULL  | Germany |
+| A03   | Hallie    | Hull        | 415-549-4278 | 3800 Waldo Ave, #14F | San Francisco | CA    | 94123 | P04    | Tenterhooks Press   | Berkeley      | CA    | USA     |
+| A04   | Klee      | Hull        | 415-549-4278 | 3800 Waldo Ave, #14F | San Francisco | CA    | 94123 | P01    | Abatis Publishers   | New York      | NY    | USA     |
+| A04   | Klee      | Hull        | 415-549-4278 | 3800 Waldo Ave, #14F | San Francisco | CA    | 94123 | P02    | Core Dump Books     | San Francisco | CA    | USA     |
+| A04   | Klee      | Hull        | 415-549-4278 | 3800 Waldo Ave, #14F | San Francisco | CA    | 94123 | P03    | Schadenfreude Press | Hamburg       | NULL  | Germany |
+| A04   | Klee      | Hull        | 415-549-4278 | 3800 Waldo Ave, #14F | San Francisco | CA    | 94123 | P04    | Tenterhooks Press   | Berkeley      | CA    | USA     |
+| A05   | Christian | Kells       | 212-771-4680 | 114 Horatio St       | New York      | NY    | 10014 | P01    | Abatis Publishers   | New York      | NY    | USA     |
+| A05   | Christian | Kells       | 212-771-4680 | 114 Horatio St       | New York      | NY    | 10014 | P02    | Core Dump Books     | San Francisco | CA    | USA     |
+| A05   | Christian | Kells       | 212-771-4680 | 114 Horatio St       | New York      | NY    | 10014 | P03    | Schadenfreude Press | Hamburg       | NULL  | Germany |
+| A05   | Christian | Kells       | 212-771-4680 | 114 Horatio St       | New York      | NY    | 10014 | P04    | Tenterhooks Press   | Berkeley      | CA    | USA     |
+| A06   |           | Kellsey     | 650-836-7128 | 390 Serra Mall       | Palo Alto     | CA    | 94305 | P01    | Abatis Publishers   | New York      | NY    | USA     |
+| A06   |           | Kellsey     | 650-836-7128 | 390 Serra Mall       | Palo Alto     | CA    | 94305 | P02    | Core Dump Books     | San Francisco | CA    | USA     |
+| A06   |           | Kellsey     | 650-836-7128 | 390 Serra Mall       | Palo Alto     | CA    | 94305 | P03    | Schadenfreude Press | Hamburg       | NULL  | Germany |
+| A06   |           | Kellsey     | 650-836-7128 | 390 Serra Mall       | Palo Alto     | CA    | 94305 | P04    | Tenterhooks Press   | Berkeley      | CA    | USA     |
+| A07   | Paddy     | O'Furniture | 941-925-0752 | 1442 Main St         | Sarasota      | FL    | 34236 | P01    | Abatis Publishers   | New York      | NY    | USA     |
+| A07   | Paddy     | O'Furniture | 941-925-0752 | 1442 Main St         | Sarasota      | FL    | 34236 | P02    | Core Dump Books     | San Francisco | CA    | USA     |
+| A07   | Paddy     | O'Furniture | 941-925-0752 | 1442 Main St         | Sarasota      | FL    | 34236 | P03    | Schadenfreude Press | Hamburg       | NULL  | Germany |
+| A07   | Paddy     | O'Furniture | 941-925-0752 | 1442 Main St         | Sarasota      | FL    | 34236 | P04    | Tenterhooks Press   | Berkeley      | CA    | USA     |
++-------+-----------+-------------+--------------+----------------------+---------------+-------+-------+--------+---------------------+---------------+-------+---------+
