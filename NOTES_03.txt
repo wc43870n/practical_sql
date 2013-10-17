@@ -1,0 +1,15 @@
+This note accompanies additions of files after session 03 to the repository package.
+
+Additions are in or under the directory sessions/03, and include:
+-   A PDF of Tuesday's deck
+-   Exercises
+-   queries from class
+
+I have also added solutions to last week's exercises.  See sessions/02/exercises/solutions.
+
+I will put up more exercises in the next several days.
+
+Please feel free to reach out to me if you have questions. 
+
+gordon@practicalhorseshoeing.com
+
