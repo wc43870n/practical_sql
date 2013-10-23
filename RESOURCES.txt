@@ -1,0 +1,48 @@
+There a many resources on SQL, many of them excellent.  Here are some I find particularly helpful:
+
+
+BOOKS
+
+SQL: Visual QuickStart Guide (3rd Edition)
+------------------------------------------
+Chris Fehily
+2008
+
+-   Does an unusually good job of explaining fundamental principles and
+    solutions to particular problems.  EXCELLENT.
+
+
+MySQL (5th Edition) (Developer's Library)
+-----------------------------------------
+Paul DuBois
+2013
+
+-   (I'm familiar with the 4th edition.)
+-   This is a developer and db administrator resource.  It has some discussion
+    of query syntax, but the focus is on integrating MySQL with other
+    programming tools and system administration of MySQL.
+-   The chief values for those starting with MySQL are:
+    -   A different account of the syntax.  I find that sometimes reading two
+        different (but good) explanations helps me understand better.
+    -   A discussion of MySQL permissions and connections.  New users do
+        encounter this stuff and sometimes an explanation is helpful.
+    -   Some discussion of MySQL's tools for user-defined functions, stored
+        procedures and variables.
+    -   An appendix detailing the MySQL syntax, and the available functions.
+        All of this is available online, but I sometimes find it helpful to
+        browse this stuff in hardcopy.  It can be particularly helpful to get
+        oriented to the sort of functions that are available.
+-   Note that most of these advantages are specific to the MySQL
+    implementation.  
+
+
+
+WEBSITES
+
+-   Online documentation for whatever implementation you are using.
+-   stackoverflow.com is a great resource for programming questions.
+-   dba.stackexchange.com is a stackoverflow-style Q&A site dedicated to
+    databases.  There are a lot of query syntax questions and answers.
+-   Google.
+
+
